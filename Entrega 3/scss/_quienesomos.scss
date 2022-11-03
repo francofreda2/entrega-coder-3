@@ -1,0 +1,92 @@
+$color_1: rgb(1, 6, 9);
+$color_2: black;
+$font-family_1: 'Impact';
+$font-family_2: 'Dangrek', cursive;
+$font-family_3: 'Arial Narrow Bold';
+$background-color_1: rgba(10, 46, 74, 0.758);
+$background-color_2: burlywood;
+$background-color_3: rgb(230, 204, 173);
+
+
+.contenedor-home {
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 400px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+	border: 6px solid;
+	margin-top: 200px;
+	grid-template-areas: "home1 home2 home3" "home1 home4 home5   ";
+	>div {
+		align-items: center;
+		text-align: center;
+		border: dashed black 5px;
+	}
+}
+.home1 {
+	grid-area: home1;
+	align-items: center;
+	text-align: center;
+	padding: 0px;
+	overflow: hidden;
+	background: burlywood;
+}
+.home2 {
+	grid-area: home2;
+	background: burlywood;
+	align-items: center;
+	text-align: center;
+	background-image: url(/files/De\ arriba.PNG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+.home3 {
+	background: burlywood;
+	align-items: center;
+	text-align: center;
+	padding: 60px;
+	-webkit-animation: swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+	animation: swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+}
+.home4 {
+	background: burlywood;
+	background-color: $background-color_2;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+.home5 {
+	background-color: $background-color_2;
+	align-items: center;
+	text-align: center;
+	padding: 50px;
+}
+.p-historia {
+	font-family: $font-family_2;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: $font-family_2;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+}
+.article-historia {
+	font-family: $font-family_2;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px;
+}
+.items-home {
+	font-family: $font-family_2;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	background: burlywood;
+}

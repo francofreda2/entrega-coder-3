@@ -1,0 +1,1180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: rgba(10, 46, 74, 0.758);
+    color: rgb(1, 6, 9);
+}
+
+.logo1{
+    border-radius: 50%;
+
+}
+/* inicia barra navegacion***/
+
+.letra-nav{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none; 
+    text-decoration: none;
+    gap: 70px;
+    padding: 10px;
+    margin: 0px;
+}
+/*termina barra de nav***/
+
+
+/*Empieza portada***/
+.lekkerportada{
+    background-image: url("/files/portada\ lekker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 100vh ;
+
+}
+ 
+/*Termina portada***/
+
+
+/*  Empieza lista de sabores***/
+.contenedor{
+
+    display: grid;
+    height: 1200px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-template-areas: 
+    "lista-1 lista-2 lista-3";
+}
+
+
+.lista1{
+    grid-area: "lista1";
+    border:5px solid black;
+    margin: 50px;
+    background: burlywood;
+    font-family: 'Impact';
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.lista2{
+    grid-area: "lista2";
+    border:5px solid black;
+    margin: 50px;
+    background: burlywood;
+    font-family: 'Impact';
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.lista3{
+    grid-area: "lista3";
+    margin: 50px;
+    border:5px solid black;
+    background: burlywood;
+    font-family: 'Impact';
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.ul-sabores{
+    list-style-type: none;
+    font-size: 40px;
+
+}
+
+
+.ul-sabores{
+    list-style-type: none;
+    font-size: 40px;
+
+}
+
+/*  Termina lista de sabores***/
+
+
+/*  Empieza sucursales***/
+
+.sucursales{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 500px;
+}
+
+
+.sucursales .item1 {
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.devoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.sucursales .item2 {
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+
+
+
+.almagro{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 200px;
+    
+
+}
+
+.almagro1{
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.almagro2{
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+.carrasco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.carrasco1{
+    border-radius: 5px;
+    width: 100%;
+    background-image: url(/files/Lekker\ carrasco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.carrasco2{
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+
+.p{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 50 px;
+}
+
+.p2 {
+    font-size: 70 px;
+    font-weight: bold;  
+    margin: 50px;
+}
+
+
+/*  Termina sucursales***/
+
+
+/*  Empieza quienes somos***/
+
+
+.contenedor-home{
+    margin-right:  20px; ;
+    margin-left: 20px;
+    height : 400px ;
+    width : 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+    justify-content: center;
+    border: 6px solid;
+    margin-top: 200px;
+    grid-template-areas: 
+        "home1 home2 home3"
+        "home1 home4 home5   ";
+
+    
+}
+
+.contenedor-home  > div {
+    align-items: center;
+    text-align: center;
+    border: dashed black 5px;
+
+}
+
+.home1{
+    grid-area:home1 ;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    overflow: hidden;
+    background: burlywood;
+}
+
+.home2{
+    grid-area:home2 ;
+    background: burlywood;
+    align-items: center;
+    text-align: center;
+    background-image: url(/files/De\ arriba.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+  
+
+}
+
+.home3{
+
+    background: burlywood;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    -webkit-animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+    animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+
+
+}
+
+.home4{
+    background: burlywood;
+    background-color:  burlywood;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.home5{
+    background-color:  burlywood;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.p-historia{
+    Font-family: 'Dangrek', cursive;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.article-historia{
+    font-family: 'Dangrek', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px ;
+}
+
+
+.items-home{
+    Font-family: 'Dangrek', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: burlywood;
+}
+
+
+.p-historia{
+    Font-family: 'Dangrek', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+/*  Termina quienes somos***/
+
+
+/*   Empiezan efectos***/
+
+@keyframes cambio {
+    100% {
+        content: 'puto';
+    }
+    
+}
+
+
+.contenedor-pedido{
+    margin-top: 50px;
+    border: 5px solid black;
+}
+
+.legend{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+.fieldset{
+    font-size: 25PX;
+    font-family:  'Arial Narrow Bold';
+    border: 5px solid ;
+}
+
+
+#enviar-pedido{
+    font-size: 15px;
+    font-family:  'Arial Narrow Bold';
+}
+
+
+
+.item1:hover{
+    transition: all;
+    transform:scale(1.1) ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.item2:hover{
+    transition: all;
+    transform:scale(1.1) ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.carrasco2:hover{
+    transition: all;
+    transform:scale(1.1) ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.carrasco1:hover{
+    transform:scale(1.1) ;
+    transition: all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}  
+
+.almagro2:hover{
+    transform:scale(1.1) ;
+    transition: all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.almagro1:hover{
+    transform:scale(1.1) ;
+    transition: all;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+
+
+.swing-top-fwd{-webkit-animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both}
+
+ 
+
+
+ @-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+  /*   terminan efectos***/
+
+  @media  (max-width: 768px){
+        
+
+            /*Empieza portada***/
+        .lekkerportada{
+            background-repeat: no-repeat;
+            background-size: cover; 
+            width: 768px;
+            height: 700px ;
+
+        }
+        
+        /*Termina portada***/
+
+          /*   Empieza  quienes somos***/
+        .contenedor-home{
+            width: 730px;
+            height: 900px;
+            border: 5px solid grey;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-template-areas: 
+            "home1 home1"
+            "home2 home3"
+            "home4 home5"
+        
+        }
+    
+    
+        .home1 {
+            background-color: rgb(230, 204, 173);
+            grid-area:home1 ;
+            font-weight: 10px;
+        }
+
+        .home2{
+            grid-area:home2 ;
+            background: burlywood;
+            align-items: center;
+            text-align: center;
+            background-image: url(/files/De\ arriba.PNG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+        
+          
+        
+        }
+        
+        .home3{
+        
+            background: burlywood;
+            align-items: center;
+            text-align: center;
+            padding: 60px;
+            -webkit-animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+            animation:swing-top-fwd .4s cubic-bezier(.25,.46,.45,.94) both;
+            animation-delay: 3s;
+        
+        }
+        
+        .home4{
+            background-color:  burlywood;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        
+        }
+        
+        .home5{
+             background-color:  burlywood;
+             align-items: center;
+             text-align: center;
+             padding: 30px;
+        
+        }
+
+        .article-historia{
+            font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 8px ;
+        }
+        
+        
+        
+        
+        .items-home{
+            Font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 5px;
+            font-weight: bold;
+            background: burlywood;
+        }
+        
+        
+        .p-historia{
+            Font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+         /*   Termina  home***/
+
+
+
+         /*   Empieza  Sabores***/
+        .contenedor{
+
+            display: grid;
+            height: 1200px;
+            width: 100%;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr 1 fr 1fr ;
+            justify-content: center;
+            grid-template-areas: 
+            "lista-1"
+            "lista-2" 
+            "lista-3"
+             ;
+        }
+        
+        
+        .lista1{
+            grid-area: "lista1";
+            border:5px solid black;
+            margin: 50px;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+        
+        .lista2{
+            grid-area: "lista2";
+            border:5px solid black;
+            margin: 50px;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        }
+        
+        
+        .lista3{
+            grid-area: "lista3";
+            margin: 50px;
+            margin-bottom: 900px;
+            border:5px solid black;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+
+            /*   Termina  Sabores***/
+
+            /*   Empieza  Sucursales***/
+  
+            
+        .sucursales{
+            margin-top: 1000px;
+            display: grid;            width: 100%;
+            height: 400px;
+            grid-template-columns: 1fr 1fr ;
+            margin-top: 500px;
+        }
+
+
+
+        .sucursales .item1 {
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .devoto{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .sucursales .item2 {
+            margin-top: 1000px;
+            background: burlywood;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        .almagro{
+            display: grid;
+            width: 100%;
+            height: 400px;
+            grid-template-columns: 1fr 1fr ;
+            margin-top: 200px;
+            
+
+        }
+
+        .almagro1{
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        .almagro2{
+            margin-top: 1000px;
+            background: burlywood;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+        }
+
+
+        .carrasco{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 600px;
+            width: 100%;
+            margin-top: 200px;
+        }
+
+        .carrasco1{
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            background-image: url(/files/Lekkercarrasco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .carrasco2{
+            margin-top: 1000px;
+            background: burlywood;
+            height: 300px;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+
+        .p{
+            font-size: 20px;
+            font-weight: normal;
+            margin: 50 px;
+        }
+
+        .p2 {
+            font-size:60 px;
+            font-weight: bold;  
+            margin: 50px;
+        }
+
+
+     /*   termina  sucursales***/
+
+     /*   Empieza  pedido***/
+
+        .contenedor-pedido{
+            margin-top: 200px;
+            border: 5px solid black;
+        }
+        
+        .legend{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        
+        }
+        
+        
+        .fieldset{
+            margin-top: 200px;
+            font-size: 20PX;
+            font-family:  'Arial Narrow Bold';
+            border: 5px solid ;
+        }
+
+          /*   Termina  pedido***/
+    }
+
+  @media  (max-width: 480px){
+    
+
+             /*Empieza portada***/
+            .lekkerportada{
+                background-image: url(/files/portada\ lekker\ 480.jpg);
+                background-repeat: no-repeat;
+                background-size: cover; 
+                width: 480px;
+                height: 100vh ;
+    
+            }
+            
+            /*Termina portada***/
+        
+             /*   Empieza  home***/
+        .contenedor-home{
+            width: 370px;
+            margin-left: 60px;
+            height: 900px;
+            border: 5px solid grey;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-template-areas: 
+            "home1 home1"
+            "home2 home3"
+            "home4 home5"
+        
+        }
+
+
+        .home1 {
+            background-color: rgb(230, 204, 173);
+            grid-area:home1 ;
+        }
+
+    
+
+        .home2{
+            grid-area:home2 ;
+            background: burlywood;
+            align-items: center;
+            text-align: center;
+            background-image: url(/files/De\ arriba.PNG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+        
+          
+        
+        }
+        
+        .home3{
+        
+            background: burlywood;
+            align-items: center;
+            text-align: center;
+            padding: 60px;
+           
+        
+        }
+        
+        .home4{
+            background-color:  burlywood;
+            align-items: center;
+            text-align: center;
+            padding: 25px;
+        
+        }
+        
+        .home5{
+            background-color:  burlywood;
+            align-items: center;
+            text-align: center;
+            padding: 25px;
+        
+           
+        
+        }
+
+        .article-historia{
+            font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px ;
+        }
+        
+        /*   Termina  home***/
+        
+
+        /*  Empieza  Sabores***/
+
+
+        .contenedor{
+
+            display: grid;
+            height: 1200px;
+            margin-left: 80px;
+            width: 320px;
+            grid-template-columns: 1fr ;
+            grid-template-rows: 1fr 1 fr 1fr ;
+            justify-content: center;
+            grid-template-areas: 
+            "lista-1"
+            "lista-2" 
+            "lista-3"
+            ;
+        }
+        
+        
+        .lista1{
+            grid-area: "lista1";
+            border:5px solid black;
+            margin: 50px;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+        
+        .lista2{
+            grid-area: "lista2";
+            border:5px solid black;
+            margin: 50px;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        }
+        
+        
+        .lista3{
+            grid-area: "lista3";
+            margin: 50px;
+            margin-bottom: 900px;
+            border:5px solid black;
+            background: burlywood;
+            font-family: 'Impact';
+            text-align: center;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+        /*   Termina sabores***/
+        
+        
+        /*   Empieza  sucursles***/
+            
+        .sucursales{
+            margin-left: 70px;
+            margin-top: 1000px;
+            width: 380px;
+            display: grid;           
+            height: 400px;
+            grid-template-columns: 1fr 1fr ;
+            margin-top: 500px;
+        }
+
+
+
+        .sucursales .item1 {
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .devoto{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .sucursales .item2 {
+            margin-top: 1000px;
+            background: burlywood;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        .almagro{
+            display: grid;
+            margin-left: 70px;
+            width: 380px;
+            height: 400px;
+            grid-template-columns: 1fr 1fr ;
+            margin-top: 200px;
+            
+
+        }
+
+        .almagro1{
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+        .almagro2{
+            margin-top: 1000px;
+            background: burlywood;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+        }
+
+
+        .carrasco{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 600px;
+            margin-top: 200px;
+            margin-left: 70px;
+            width: 380px;
+        }
+
+        .carrasco1{
+            margin-top: 1000px;
+            border-radius: 5px;
+            width: 100%;
+            background-image: url(/files/Lekkercarrasco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .carrasco2{
+            margin-top: 1000px;
+            background: burlywood;
+            height: 300px;
+            width: 100%;
+            font-family: 'Impact';
+            justify-items:center;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+
+
+        .p{
+            font-size: 15px;
+            font-weight: normal;
+            margin: 50 px;
+        }
+
+        .p2 {
+            font-size: 20 px;
+            font-weight: bold;  
+            margin: 50px;
+        }
+
+        /* Termina Sucursales***/
+
+     /*   Empieza  pedido***/
+
+        .contenedor-pedido{
+            margin-left: 200px;
+            margin-top: 200px;
+            border: 5px solid black;
+        }
+        
+        .legend{
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+        
+        }
+        
+        
+        .fieldset{
+            margin-top: 200px;
+            font-size: 20PX;
+            font-family:  'Arial Narrow Bold';
+            border: 5px solid ;
+        }
+
+
+        /*   Termina  pedido***/
+        
+    }
+
+
+
+

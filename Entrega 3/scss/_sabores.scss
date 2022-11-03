@@ -1,0 +1,58 @@
+$color_1: rgb(1, 6, 9);
+$color_2: black;
+$font-family_1: 'Impact';
+$font-family_2: 'Dangrek', cursive;
+$font-family_3: 'Arial Narrow Bold';
+$background-color_1: rgba(10, 46, 74, 0.758);
+$background-color_2: burlywood;
+$background-color_3: rgb(230, 204, 173);
+
+
+.contenedor {
+	display: grid;
+	height: 1200px;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	justify-content: center;
+	grid-template-areas: "lista-1 lista-2 lista-3";
+}
+.lista1 {
+	grid-area: "lista1";
+	border: 5px solid black;
+	margin: 50px;
+	background: burlywood;
+	font-family: $font-family_1;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lista2 {
+	grid-area: "lista2";
+	border: 5px solid black;
+	margin: 50px;
+	background: burlywood;
+	font-family: $font-family_1;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lista3 {
+	grid-area: "lista3";
+	margin: 50px;
+	border: 5px solid black;
+	background: burlywood;
+	font-family: $font-family_1;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ul-sabores {
+	list-style-type: none;
+	font-size: 40px;
+	list-style-type: none;
+	font-size: 40px;
+}

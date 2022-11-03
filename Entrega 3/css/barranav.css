@@ -1,0 +1,14 @@
+.logo1 {
+  border-radius: 50%;
+}
+
+.letra-nav {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 70px;
+  padding: 10px;
+  margin: 0px;
+}

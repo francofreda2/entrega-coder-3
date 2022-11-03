@@ -1,0 +1,24 @@
+$color_1: rgb(1, 6, 9);
+$color_2: black;
+$font-family_1: 'Impact';
+$font-family_2: 'Dangrek', cursive;
+$font-family_3: 'Arial Narrow Bold';
+$background-color_1: rgba(10, 46, 74, 0.758);
+$background-color_2: burlywood;
+$background-color_3: rgb(230, 204, 173);
+
+.logo1 {
+
+
+	border-radius: 50%;
+}
+.letra-nav {
+	color: black; 
+	font-weight: bold;
+	font-size: 20px;
+	list-style-type: none; 
+	text-decoration: none; 
+	gap: 70px; 
+	padding: 10px; 
+	margin: 0px; 
+}
